@@ -1,0 +1,18 @@
+ Script started on 2016年06月13日 (週一) 20時26分58秒
+ ^[]0;F74046161@2016cpp: ~/lab8^G^[[01;32mF74046161@2016cpp^[[00m:^[[01;34m~/lab8^[[00m$ make^M
+ g++    -c -o tetris5.o tetris5.cpp^M
+ g++    -c -o genMino.o genMino.cpp^M
+ g++    -c -o MinoI.o MinoI.cpp^M
+ g++    -c -o MinoS.o MinoS.cpp^M
+ g++    -c -o MinoL.o MinoL.cpp^M
+ g++    -c -o MinoO.o MinoO.cpp^M
+ g++    -c -o MinoZ.o MinoZ.cpp^M
+ g++ -o tetris5 tetris5.o genMino.o Mino.o MinoI.o MinoS.o MinoL.o MinoO.o MinoZ.o^M
+ tetris5.o : tetris5.cpp genMino.h^M
+ make: tetris5.o: Command not found^M
+ make: *** [tetris5] Error 127^M
+ ^[]0;F74046161@2016cpp: ~/lab8^G^[[01;32mF74046161@2016cpp^[[00m:^[[01;34m~/lab8^[[00m$ ./tetris5 ^M
+ Exception happened:std::bad_alloc^M
+ ^[]0;F74046161@2016cpp: ~/lab8^G^[[01;32mF74046161@2016cpp^[[00m:^[[01;34m~/lab8^[[00m$ exit^M
+
+ Script done on 2016年06月13日 (週一) 20時27分07秒
